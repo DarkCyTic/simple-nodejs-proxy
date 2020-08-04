@@ -1,2 +1,2 @@
 # simple-nodejs-proxy
-A repository accompanying the Twilio Blog Post with the same title.
+This repository holds the sample code for the Twilio Blog post with the same name - <LINK_TO_ARTICLE>
