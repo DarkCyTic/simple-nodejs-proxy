@@ -14,11 +14,6 @@ const NODE_2 = "http://34.239.248.83";
 // Logging
 app.use(morgan('dev'));
 
-// Info GET endpoint
-app.get('/info', (req, res, next) => {
-    res.send('This is a proxy service which proxies to JSONPlaceholder API.');
-});
-
 // Proxy endpoints
 app.use('/', createProxyMiddleware({
     target: NODE_1,
